@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "declaration": true,
+        "experimentalDecorators": true,
+        "lib": [
+            "es2022",
+            "dom"
+        ],
+        "module": "CommonJS",
+        "moduleResolution": "node",
+        "noImplicitAny": false,
+        "noUnusedLocals": false,
+        "removeComments": true,
+        "sourceMap": true,
+        "strictNullChecks": true,
+        "target": "ES2022",
+        "outDir": "./dist"
+    },
+    "include": [
+        "./src/***"
+    ]
+}

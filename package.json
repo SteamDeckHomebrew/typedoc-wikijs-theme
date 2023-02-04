@@ -1,0 +1,36 @@
+{
+  "name": "typedoc-wikijs-theme",
+  "version": "1.0.0",
+  "description": "A TypeDoc theme to generate Wiki.js compatible markdown.",
+  "main": "dist/index.js",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "shx rm -rf ./dist && tsc",
+    "watch": "tsc --watch"
+  },
+  "keywords": [
+    "typedoc",
+    "typedoc-theme",
+    "markdown",
+    "wiki.js",
+    "documentation",
+    "typescript"
+  ],
+  "author": "AAGaming <aa@mail.catvibers.me>",
+  "license": "MIT",
+  "peerDependencies": {
+    "typedoc": ">=0.23.0",
+    "typedoc-plugin-markdown": ">=4.0.0-next.2"
+  },
+  "dependencies": {
+    "typedoc-plugin-markdown": ">=4.0.0-next.2"
+  },
+  "devDependencies": {
+    "shx": "^0.3.4",
+    "typedoc": ">=0.23.0",
+    "typescript": "^4.9.5"
+  }
+}
