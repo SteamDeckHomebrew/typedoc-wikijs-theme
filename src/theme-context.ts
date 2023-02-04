@@ -26,8 +26,8 @@ export class WikiJSThemeRenderContext extends MarkdownThemeRenderContext {
     }
   }
 
-  getRelativeUrl(url: string | undefined): string | null {
-    const ret = super.getRelativeUrl(url)?.replace(".md", "")?.replaceAll("_internal_", "INTERNAL")?.replaceAll("_", "/")?.replaceAll("_internal_", "INTERNAL") || null;
+  relativeURL = (url: string | undefined): string | null => {
+    const ret = super.relativeURL(url)?.replace(".md", "")?.replaceAll("_internal_", "INTERNAL")?.replaceAll("_", "/")?.replaceAll("_internal_", "INTERNAL") || null;
     return ret;
   }
 }
