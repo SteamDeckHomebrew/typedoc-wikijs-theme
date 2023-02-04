@@ -1,6 +1,6 @@
 {
   "name": "typedoc-wikijs-theme",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A TypeDoc theme to generate Wiki.js compatible markdown.",
   "main": "dist/index.js",
   "files": [
@@ -21,6 +21,10 @@
   ],
   "author": "AAGaming <aa@mail.catvibers.me>",
   "license": "MIT",
+  "repository": {
+    "url": "https://github.com/SteamDeckHomebrew/typedoc-wikijs-theme",
+    "type": "github"
+  },
   "peerDependencies": {
     "typedoc": ">=0.23.0",
     "typedoc-plugin-markdown": ">=4.0.0-next.2"
