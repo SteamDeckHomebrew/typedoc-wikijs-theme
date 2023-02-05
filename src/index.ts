@@ -9,11 +9,11 @@ export function load(app: Application) {
     new MarkdownPluginOptionsReader({
       symbolsWithOwnFile: "none",
       githubPages: false,
-      enableFrontmatter: true,
-      frontmatterGlobals: {
-        editor: "markdown",
-        published: true
-      },
+      // enableFrontmatter: true,
+      // frontmatterGlobals: {
+      //   editor: "markdown",
+      //   published: true
+      // },
       hideBreadcrumbs: true
     })
   );
