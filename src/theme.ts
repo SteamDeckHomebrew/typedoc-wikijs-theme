@@ -11,7 +11,8 @@ export class WikiJSTheme extends MarkdownTheme {
 
   render(page: PageEvent<Reflection>): string {
     page.filename = page.filename.replaceAll("_internal_", "INTERNAL").replaceAll("_", "/").replaceAll("INTERNAL", "_internal_").replaceAll("/md", ".md");
-    return super.render(page);
+    const res = super.render(page);
+    return res;
   }
 
   getRenderContext() {
@@ -26,6 +27,7 @@ export class WikiJSTheme extends MarkdownTheme {
 
   getUrl(reflection: Reflection, relative?: Reflection, separator = "/"): string {
     const ret = super.getUrl(reflection, relative, separator);
+    console.log("called geturl", ret);
     return ret;
   }
 }
