@@ -1,6 +1,6 @@
 {
   "name": "typedoc-wikijs-theme",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A TypeDoc theme to generate Wiki.js compatible markdown.",
   "main": "dist/index.js",
   "files": [
